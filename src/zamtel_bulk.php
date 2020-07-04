@@ -41,3 +41,44 @@ private function send_server_response($url,$post_body){
 
     return $response_string;
 }
+
+/**
+     * @param $api_key
+     * @param $url
+     * @return mixed
+     *
+     * Get All message for specific API Access
+     *
+     */
+
+    public function get_inbox($key,$url){
+        $post_body='action=get-inbox&api_key='.$key;
+
+        $response=$this->send_server_response($url,$post_body);
+
+        return $response;
+
+
+    }
+
+    /**
+     * @param $api_key
+     * @param $url
+     * @return mixed
+     *
+     * Get Balance for specific user
+     *
+     */
+
+    public function check_balance($key,$url){
+        $post_body='action=check-balance&key='.$key;
+
+        $response=$this->send_server_response($url,$post_body);
+
+        return $response;
+
+
+    }
+
+
+}
