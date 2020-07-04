@@ -1,0 +1,22 @@
+{
+  "name": "cynojine/zamtelbulksms",
+  "description": "Zamtel Bulk SMS API is build for Zamtel SMS - Bulk SMS Application For Marketing",
+  "type": "library",
+  "license": "MIT",
+  "version": "2.4.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "kazashim kuzasuwat",
+      "email": "kazashim@cynojine.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
