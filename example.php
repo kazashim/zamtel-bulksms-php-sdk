@@ -23,11 +23,11 @@ use ZamtelBulk\ZamtelBulkAPI;
 
 // Step 2: set your API_KEY from https://mywebhost.com/sms-api/info
 
-$key = 'eeb45fcda355161e419c5763f8b943ec';
+$key = 'xxxxxxxxxxxxxxxxxxx';
 
 
 // Step 3: Change the from number below. It can be a valid phone number or a String
-$senderid = 'DCTalkRadio';
+$senderid = 'Cynojine';
 
 // Step 4: the number we are sending to - Any phone number
 $contacts = '260965058568';
