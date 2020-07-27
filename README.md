@@ -55,7 +55,7 @@ You have cotnact must include Country code at beginning of the phone number.
 ### Step 5:
 Replace your Install URL like 
 ```php
-$url = 'http://bulksms.zamatel.co.zm/api/sms/send/batch?';
+$url = 'http://bulksms.zamatel.co.zm/api/sms/send/batch';
 ```
 // SMS Body
 ```php
