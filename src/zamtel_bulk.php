@@ -60,7 +60,7 @@ class ZamtelBulkAPI
 
     public function send_sms($sms_body, $url){
 
-        $post_body='?'.$this->make_sms_body($sms_body,$url);
+        $post_body='?key=$key'.$this->make_sms_body($sms_body,$url);
 
         $response=$this->send_server_response($url,$post_body);
 
