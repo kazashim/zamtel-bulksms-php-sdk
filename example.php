@@ -23,7 +23,7 @@ use ZamtelBulk\ZamtelBulkAPI;
 
 // Step 2: set your API_KEY from https://mywebhost.com/sms-api/info
 
-$key = 'xxxxxxxxxxxxxxxxxxx';
+$key = 'xxxxxxxxxxxxxxxxxxxxxxxx';
 
 
 // Step 3: Change the from number below. It can be a valid phone number or a String
@@ -39,10 +39,6 @@ $url = 'https://bulksms.zamtel.co.zm/api/sms/send/batch';
 
 // the sms body
 $message = 'test message from cynojine SMS';
-
-// unicode sms
-$unicode = 0; //For Plain Message
-$unicode = 1; //For Unicode Message
 
 
 // Create SMS Body for request
