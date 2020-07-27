@@ -27,12 +27,12 @@ git clone https://github.com/kazashim/zamtel-bulksms-php-sdk
 If install ZamteLBulkSMS using Git Clone then load your ZamteLBulkSMS Class file and Use namespace. 
 ```php
 require_once 'src/Zamtel_bulk.php';
-use ZamtelBulk/ZamtelBulkAPI;
+use ZamtelBulk\ZamtelBulkAPI;
 ```
 If install ZamteLBulkSMS API using Composer then Require/Include aucotnactload.php file in the index.php of your project or whatever file you need cotnact use **ZamteLBulkSMS API** classes:. 
 ```php
 require 'vendor/aucotnactload.php';
-use ZamtelBulk/ZamtelBulkAPI;
+use ZamtelBulk\ZamtelBulkAPI;
 ```
 ### Step 2:
 set your API_KEY senderid `http://bulksms.zamatel.co.zm/` (user panel)
@@ -48,7 +48,7 @@ $senderid = 'Cynojine';
 ### Step 4:
 the number we are sending cotnact - Any phone number
 ```php
-$contact = '2609500123456';
+$contacts = '2609500123456';
 ```
 You have cotnact must include Country code at beginning of the phone number.  
 
@@ -133,7 +133,7 @@ $sms_body = array(
 ### Step 6: 
 Instantiate a new Cyn SMS API request
 ```php
-$client = new ZamtelBulk();
+$client = new ZamtelBulkAPI();
 ```
 
 ## Send SMS
